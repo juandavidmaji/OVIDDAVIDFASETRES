@@ -1,0 +1,211 @@
+/*@import url(menu.css);*/
+
+
+
+/*
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+headeraa
+{
+	background-color:#005883;
+	
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+} */
+
+body
+{
+	background-color: #005883;
+	font-family: franklin-gothic-urw-comp, sans-serif; /*tipo se letra ejemplo arial*/
+	color:#fff;
+}
+/*
+#contenido
+{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+*/
+
+#contenido
+{
+	text-align: center;
+
+	
+}
+
+
+h1
+{
+	color: #F0B429;
+	text-align: center;
+
+
+}
+h3
+{
+	text-align: left;
+	font-size: large;
+}
+#universidad
+{
+	border-radius: 5px;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.navegacion
+{
+	background: #F0B429; /*recuadro blaco de los enlaces*/
+	border-radius: 5px;
+}
+
+.navegacion ul
+{
+	list-style: none;   /* quitar los punto de la lista*/
+
+}
+
+.menu >li /*signo > solo para llamar  algo especifico ">li"*/
+{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a
+{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: franklin-gothic-urw-comp, sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover
+{
+	color: #ffffff;
+	transition: all 0.3s; /*para que no se vea muy fuerte el cambio de color */
+}
+/*sub menu*/
+.submenu
+{
+	position: absolute;
+	background: #333333; /*color de fondo al submenu*/
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: upacity 1.5s;
+}
+
+.submenu li a
+{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: franklin-gothic-urw-comp, sans-serif;
+	text-decoration: none;
+
+}
+
+.menu li:hover .submenu
+{
+	visibility: visible; /*ocultar el sub menu*/
+	opacity: 1;
+
+}
+
+
+#textoindex
+{
+	width: 950px;
+	height: 700px; 
+	background-color: #fff;/*color de fondo blanco*/
+	color: #000000;
+	margin: 40px auto; /*centar cuado de color blanco*/
+	text-align: center;
+	border-radius: 20px;  /*bordes redondeados*/
+	padding: 20px;  /*contenido dentro del los bodes redondeados*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,10);
+}
+
+
+
+
+
+#colortextoindex
+{
+	
+	color: #000000; /*color de texto*/
+}
+p
+{
+	text-align: justify;
+}
+
+
+
+#textoaudio /*estilo solo para la panina audio*/
+{
+	width: 950px;
+	height: 400px; 
+	background-color: #fff;/*induca el fondo*/
+	color: #000000;
+	margin: 40px auto; /*centar cuado de color blanco*/
+	text-align: center;
+	border-radius: 20px;  /*dordes redondeados*/
+	padding: 20px;  /*contenido dentro del los bodes redondeados*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,10);	
+}
+
+#textovideo /*estilo solo para la panina video*/
+{
+	width: 950px;
+	height: 1300px; 
+	background-color: #fff;/*induca el fondo*/
+	color: #000000;
+	margin: 40px auto; /*centar cuado de color blanco*/
+	text-align: center;
+	border-radius: 20px;  /*dordes redondeados*/
+	padding: 20px;  /*contenido dentro del los bodes redondeados*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,10);	
+}
+
+a
+{
+	color: #F0B429;
+	font-weight: bold; /*negrita*/
+	text-align: left;
+}
+
+#sfcjmchckmrq1ntj7chbehglh8bk53s7p9d
+{
+	text-align: center;
+}
+#foto
+{
+	font-weight: bold; 
+
+}
+
+
+
+
